@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bdbdbd;
+}
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+}
+h2,
+h1 {
+  margin: 0px;
+}
+
+button {
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+}
+
+#display {
+  grid-column: span 3;
+  /* display: flex;
+    align-items: center; */
+  background-color: white;
+  padding: 2rem;
+}
+
+#ac {
+  grid-column: span 1;
+  background-color: #129688;
+}
+.numeric {
+  background-color: #212121;
+}
+
+.sign {
+  background-color: #757575;
+}
