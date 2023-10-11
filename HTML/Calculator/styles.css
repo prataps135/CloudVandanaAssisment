@@ -32,7 +32,8 @@ button {
   grid-column: span 1;
   background-color: #129688;
 }
-.numeric {
+.numeric,
+.sign2 {
   background-color: #212121;
 }
 
