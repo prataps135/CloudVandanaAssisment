@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d99e8;
+}
+h1 {
+  color: white;
+  text-shadow: 1px 2px gray;
+  text-align: center;
+}
+.container > form {
+  background-color: white;
+  padding: 1.5rem;
+}
+.firstLine {
+  display: flex;
+  gap: 1rem;
+}
+
+.firstLine input {
+  margin-top: 1rem;
+  width: 14rem;
+  height: 2rem;
+}
+
+form textarea {
+  width: 100%;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.btn > button {
+  background-color: #0d99e8;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+}

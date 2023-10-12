@@ -1,0 +1,65 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Customer Survey Form</h1>
+      <form action="#" method="get">
+        <div class="firstLine">
+          <section>
+            <label for="name">Name</label><br />
+            <input type="text" name="name" id="name" />
+          </section>
+          <section>
+            <label for="email">Email</label><br />
+            <input type="email" name="email" id="email" />
+          </section>
+        </div>
+
+        <section>
+          <p>Is this first time you are using our product and sercice ?</p>
+          <input type="radio" name="q1" id="q1" value="yes" checked />Yes
+          <input type="radio" name="q1" id="q1" value="no" />No
+        </section>
+        <section>
+          <p>Would to suggestion to your friends and colleages ?</p>
+          <input type="radio" name="q2" id="q2" value="yes" checked />Yes
+          <input type="radio" name="q2" id="q2" value="no" />No
+        </section>
+        <section>
+          <p>How satisfied are you with our company overall ?</p>
+          <input
+            type="radio"
+            name="q3"
+            id="q3"
+            value="Satisfied"
+            checked
+          />Satisfied
+          <input type="radio" name="q3" id="q3" value="Undeciced" />Undeciced
+          <input
+            type="radio"
+            name="q3"
+            id="q3"
+            value="Unsatisfied"
+          />Unsatisfied
+        </section>
+
+        <section>
+          <p>Do you have suggestion to improve our service ?</p>
+          <textarea name="suggestion" id="suggestion" rows="8"></textarea>
+        </section>
+
+        <section class="btn">
+          <button>Submit</button>
+          <button>Reset</button>
+        </section>
+      </form>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
