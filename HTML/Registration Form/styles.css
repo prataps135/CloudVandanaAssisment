@@ -34,7 +34,7 @@ form textarea {
   gap: 1rem;
 }
 
-.btn > button {
+.btn > input {
   background-color: #0d99e8;
   color: white;
   padding: 0.5rem 1rem;
